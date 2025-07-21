@@ -39,10 +39,10 @@ const Navbar = () => {
       </Link>
       
       <ul>
-      <Link to={'/'}><li>Home</li></Link>
-        <li>Features</li>
-        <li>pricing</li>
-        <li>Blog</li>
+        <Link to={'/'}><li>Home</li></Link>
+        <Link to={'/features'}><li>Features</li></Link>
+        <Link to={'/pricing'}><li>pricing</li></Link>
+        <Link to={'/blog'}><li>Blog</li></Link>
         
       </ul>
       <div className="nav-right">
@@ -52,7 +52,7 @@ const Navbar = () => {
           <option value="inr">INR</option>
           
         </select>
-        <button>Sign Up <img src={arrow_icon} alt="" /></button>
+        <Link to={'/signup'}><button>Sign Up <img src={arrow_icon} alt="" /></button></Link>
         
       </div>
       

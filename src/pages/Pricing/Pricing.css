@@ -1,0 +1,70 @@
+.pricing-section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.pricing-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.plan-card {
+  background-color: #ffffff10;
+  border: 1px solid #ffffff22;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: scale(1.05);
+}
+
+.plan-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.plan-price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+}
+
+.plan-features li {
+  margin: 0.5rem 0;
+}
+
+.plan-button {
+  background-color: white;
+  color: #0b0054;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.plan-button:hover {
+  background-color: #eee;
+}
