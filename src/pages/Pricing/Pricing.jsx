@@ -1,5 +1,5 @@
 import React from 'react';
-import './pricing.css'; // Import the custom CSS
+import './Pricing.css'; // Import the custom CSS
 
 const plans = [
   {
