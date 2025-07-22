@@ -33,14 +33,14 @@ useEffect(()=>{
   return (
     <div className='home'>
       <div className="hero">
-        <h1>Largest <br/>Crypto Marketplace</h1>
-        <p>Welcome to the world's largest cryptocurrency marketplace.Sign up to explore more about cryptos.</p>
+        <h1>Real-Time Crypto<br/> Market Intelligencee </h1>
+        <p>Your Trusted Source for Crypto Market Data <br/>Accurate, real-time tracking for informed investment decisions.</p>
         <form onSubmit={searchHandler}>
           <input onChange={inputHandler} list='coinlist' value={input} type="text" placeholder='Search Crypto Currency' required />
 
         <datalist id='coinlist'>
           {allCoin.map((item,index)=>(<option key={index} value={item.name}/>))}
-        </datalist>
+        </datalist><br/>
 
 
 
