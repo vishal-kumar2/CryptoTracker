@@ -61,6 +61,7 @@
 }
 .market-cap{
   text-align: right ;
+  
 }
 .table-layout:last-child{
   border: none;
@@ -76,11 +77,14 @@
 }
 .table-layout .green{
   color: #00D515;
-  text-align: center
+  text-align: center;
+  
+
 }
 .table-layout .red{
   color: #ff4646;
   text-align: center;
+  
 }
 
 @media (max-width:760px){
@@ -98,6 +102,12 @@
   }
   .table-layout{
     font-size:12px ;
+  }
+  .current-price {
+    font-size: 2.2vw;
+  }
+  .table-layout .green ,.table-layout .red{
+    font-size: 2.5vw;
   }
   .hero form input{
     width: 100px;
